@@ -1,0 +1,48 @@
+.main .banner {
+    max-height: 96rem;
+}
+
+.main .banner .container{
+    padding-top: 12rem;
+    padding-bottom: 24.5rem;
+    display: flex;
+    align-items: center;
+}
+.main .banner__title{
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+
+.main .banner__title-main {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.main .banner__title-sub {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 6rem;
+}
+
+.main .banner__title-button{
+    color: #fff;
+    background-color: rgb(226, 84, 84);
+    padding: 2rem 9.5rem;
+    border-radius:5px;
+    font-family: "Open Sans", sans-serif ;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-weight:600;
+    cursor: pointer;
+    
+}
+
+.main .banner__image{
+    margin-left: auto;
+}
+.main .banner__image img {
+    width: 588px;
+    height: 597px;
+}

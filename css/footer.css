@@ -1,0 +1,126 @@
+.footer{
+    width: 100%;
+    min-height: 50rem;
+    background-color: rgb(37, 49, 66);
+}
+
+.footer__top .container{
+    width: 100%;
+    max-width:1230px;
+    margin: 0 auto;
+    padding-top: 16rem;
+    margin-bottom:18rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 10rem;
+}
+
+.items__social{
+    display:flex;
+    color: #808285;
+}
+
+.wrap__item .items__social {
+    gap: 3rem;
+    display: flex;
+    font-size: 18px;
+}
+.item__paraphrase{
+    margin-bottom: 20px;
+    font-family: "Open sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    color: #808285;
+    align-items: center;
+}
+.footer__link-title{
+    color: #fff;
+    font-size:22px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    margin-bottom:45px;
+}
+.footer__link{
+    color: #808285;
+    font-size:16px;
+    font-family: "Open sans",sans-serif;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.wrap__item img{
+    font-size:40px;
+    margin-right: 1.5rem;
+}
+.wrap__item-logo{
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    line-height: 20px
+}
+.wrap__item-name{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Open sans",sans-serif;
+}
+.footer__contact-title{
+    color: #fff;
+    font-size:22px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    margin-bottom:45px;
+}
+.footer__contact {
+    margin-bottom: 20px;
+}
+.footer__contact-item{
+    font-family: "Open sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808285;
+    align-items: center;
+    line-height:20px
+}
+.footer__contact-item:nth-child(3),
+.footer__contact-item:nth-child(5){
+    margin-bottom: 3rem;
+}
+
+
+
+.footer__bot{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    background-color:#252B36;
+    position: relative;
+}
+.footer__bot-title{
+    color: #808285;
+    text-align: center;
+    font-family: "Open sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    
+    
+}
+.footer__bot-title>a{
+    color: #fff;
+}
+.footer__bot button{
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(14, 193, 247);
+    position: absolute;
+    right: 10vw;
+    top: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

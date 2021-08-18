@@ -1,0 +1,36 @@
+.partner{
+    width: 100%;
+}
+.partner__wrap{
+    text-align:center;
+}
+
+.partner .container{
+    padding-top: 20rem;
+    margin-bottom: 18rem;
+    display: flex;
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+.partner__wrap-title{
+    font-family: "Raleway",sans-serif;
+    font-size: 36px;
+    font-weight:600;
+}
+.partner__wrap-paraphrase{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color: #7a7a7a;
+    margin-bottom:100px;
+}
+.partner__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+

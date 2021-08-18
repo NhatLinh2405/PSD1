@@ -1,0 +1,48 @@
+.main{
+    width: 100%;
+    background: url(../assets/img/header1.png) no-repeat center center;
+    cursor: pointer;
+}
+.main .header{
+    height: 12rem;
+    border-bottom: 1px solid white;
+}
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main .header .container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main .header__nav{
+    margin-left: auto;
+    
+}
+.main .header__nav ul{
+    display:flex;
+    align-items: center;
+}
+
+.main .header__nav a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 60px;
+    color: #fff;
+}
+
+.main .header__nav .search-icon{
+    font-size: 30px;
+    display: block;
+    margin-right: 10px;
+}
+.main .header__nav .menu-icon{
+    font-size: 30px;
+    display: block;
+    margin-right: -10px;
+}
